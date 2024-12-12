@@ -21,7 +21,7 @@ const hasValidHeader = (request, env) => {
             "status": true,
             "data": {
                 "links" : {
-                  "url": "https://" + env.BUCKET_URL + "/comment/upload/" + photo.name
+                  "url": env.BUCKET_URL + "/comment/upload/" + photo.name
                 }
             }
         }
